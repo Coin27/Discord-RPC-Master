@@ -21,7 +21,7 @@ l_text2 = "TEXT HERE"
 
 s_text2 = "TEXT HERE"
 
-time = "status change time here"
+time1 = "status change time here"
 #------------------------------------
 btns = [
     {
@@ -56,7 +56,7 @@ print_slow("\nСделано Coin collect27#1234 | Программа актив
 #------------------------------------
 RPC.connect()
 while True:
-    sleep(time)
+    sleep(time1)
     RPC.update(
     state=l_text,
     details=s_text,
@@ -65,7 +65,7 @@ while True:
     small_image=s_image,
     large_text="Сделано Coin collect27#1234",
     small_text="Flip Team on top")
-    sleep(time) 
+    sleep(time1) 
     RPC.update(
     state=l_text2,
     details=s_text2,
