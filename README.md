@@ -3,6 +3,6 @@
 
 Set the text to all variables or there will be an error!
 
-<center> You can get image names from image </center>
+<b> You can get image names from images.png </b>
 
 [Discord server](https://discord.gg/VQ6nwqqDwE)
