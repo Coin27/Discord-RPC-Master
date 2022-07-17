@@ -51,7 +51,7 @@ def print_slow(str):
         sys.stdout.write(letter)
         sys.stdout.flush()
         time.sleep(0.06)
-print_slow("\nСделано Coin collect27#1234 | Программа активирована без ошибок.")
+print_slow("\nCreated by Коин27#4349 | All is okay.")
 #------------------------------------
 RPC.connect()
 while True:
