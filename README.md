@@ -1,4 +1,5 @@
-Make your discord profile even better!
+#Discord-RPC-Master
+#Make your discord profile even better!
 
 [Discord server](https://discord.gg/VQ6nwqqDwE)
 
