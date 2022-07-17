@@ -1,27 +1,26 @@
 #------------------------------------
 from pypresence import Presence 
-from time import sleep
 import os
 import sys,time
 import psutil
 #------------------------------------
-l_image = "IMAGE NAME HERE"
+l_image = "" #large image name
 
-s_image = "IMAGE NAME HERE"
+s_image = "" #small image name
 
-l_image2 = "IMAGE NAME HERE"
+l_image2 = "" #large image name 2
 
-s_image2 = "IMAGE NAME HERE"
+s_image2 = "" #small image name 2
 
-l_text = "TEXT HERE"
+l_text = "" #large text
 
-s_text = "TEXT HERE"
+s_text = "" #small text
 
-l_text2 = "TEXT HERE"
+l_text2 = "" #large text 1
 
-s_text2 = "TEXT HERE"
+s_text2 = "" #small text 2
 
-time1 = "status change time here"
+cooldown = 1 # status change time here
 #------------------------------------
 btns = [
     {
@@ -37,8 +36,8 @@ btns = [
 os.system('color 1f')
 RPC = Presence("800295255916150816")
 #------------------------------------
-print("█▀▀ █░░ █ █▀█ ▀█▀ █▀▀ ▄▀█ █▀▄▀█  █▀█ █▀█ █▀▀")
-print("█▀░ █▄▄ █ █▀▀ ░█░ ██▄ █▀█ █░▀░█  █▀▄ █▀▀ █▄▄")
+print("█▀█ █▀█ █▀▀")
+print("█▀▄ █▀▀ █▄▄")
 sleep(1)
 #------------------------------------
 def print_slow(str):
@@ -56,21 +55,29 @@ print_slow("\nСделано Coin collect27#1234 | Программа актив
 #------------------------------------
 RPC.connect()
 while True:
-    sleep(time1)
+    time.sleep(cooldown) 
     RPC.update(
-    state=l_text,
-    details=s_text,
-    buttons=btns,
-    large_image=l_image,
-    small_image=s_image,
-    large_text="Сделано Coin collect27#1234",
-    small_text="Flip Team on top")
-    sleep(time1) 
+        state=l_text,
+        
+        details=s_text,
+        
+        buttons=btns,
+        
+        large_image=l_image,
+        
+        small_image=s_image,
+        
+        large_text="Created by Коин27#4349")
+    time.sleep(cooldown) 
     RPC.update(
-    state=l_text2,
-    details=s_text2,
-    buttons=btns,
-    large_image=l_image2,
-    small_image=s_image2,
-    large_text="Сделано Coin collect27#1234",
-    small_text="Flip Team on top")
+        state=l_text2,
+        
+        details=s_text2,
+        
+        buttons=btns,
+        
+        large_image=l_image2,
+        
+        small_image=s_image2,
+        
+        large_text="Created by Коин27#4349")
