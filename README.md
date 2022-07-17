@@ -1,5 +1,5 @@
 # Discord-RPC-Master
-# Make your discord profile even better!
+<b>Make your discord profile even better!</b>
 
 [Discord server](https://discord.gg/VQ6nwqqDwE)
 
